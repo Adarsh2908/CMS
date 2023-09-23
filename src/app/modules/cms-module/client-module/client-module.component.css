@@ -1,0 +1,49 @@
+.mt5
+{
+    margin-top: 10px;
+}
+.client-body
+{
+    display: flex;
+    width: 100%;
+}
+
+.client-sidebar
+{
+    color: white;
+    width: 240px;
+    height: 100vh;
+    background-color: black;
+    /* padding: 10px; */
+    text-align: center;
+}
+
+.client-main-body
+{
+    padding: 30px;
+    margin-top: 10px;
+    width: 82vw;
+}
+
+.client-sidebar-btn-section
+{
+    margin-top: 10px;
+}
+
+.client-side-btn
+{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    border: none;
+}
+
+.client-side-btn:hover
+{
+    transition: 0.8s;
+    background-color: #36454f;
+    box-shadow: inset;
+}

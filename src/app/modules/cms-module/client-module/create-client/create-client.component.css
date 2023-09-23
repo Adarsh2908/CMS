@@ -1,0 +1,33 @@
+.client-home-body
+{
+    width: 100%;
+}
+.client-header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.client-search-box
+{
+    height:43px;
+    width: 600px;
+    padding: 15px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.client-search-section{
+    display: flex;
+}
+.client-search-btn
+{
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.client-selection-dropdown
+{
+    padding: 10px;
+    margin-left: 5px;
+}
