@@ -16,13 +16,15 @@
     background-color: black;
     /* padding: 10px; */
     text-align: center;
+    position:fixed;
 }
 
 .client-main-body
 {
-    padding: 30px;
+    padding-top: 15px;
     margin-top: 10px;
-    width: 82vw;
+    width: 76vw;
+    margin-left: 280px;
 }
 
 .client-sidebar-btn-section

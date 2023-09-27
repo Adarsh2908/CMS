@@ -5,6 +5,12 @@
     width: 80px;
     color: white;
     padding: 10px;
+    position: fixed;
+}
+
+.cms-client-body
+{
+    margin-left: 80px;
 }
 
 .cms-body{

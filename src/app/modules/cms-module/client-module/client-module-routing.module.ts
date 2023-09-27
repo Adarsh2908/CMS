@@ -37,7 +37,8 @@ const routes: Routes = [
         component:ClientSettingsComponent
       }
     ] 
-  }
+  },
+  { path: 'websiteBuilder', loadChildren: () => import('./website-builder/website-builder.module').then(m => m.WebsiteBuilderModule) }
 ];
 
 @NgModule({

@@ -31,3 +31,17 @@
     padding: 10px;
     margin-left: 5px;
 }
+
+.template:hover
+{
+    width: 322px;
+    height:130px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.ddown
+{
+    padding: 6px;
+    width: 100%;
+}
