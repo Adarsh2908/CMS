@@ -32,3 +32,8 @@
     margin-left: 5px;
 }
 
+.logs
+{
+    overflow:scroll;
+    height: 480px;
+}

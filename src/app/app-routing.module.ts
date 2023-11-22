@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'entry',
+    path: '',
     loadChildren: () =>
       import('./modules/entry-module/entry-module.module').then(
         (m) => m.EntryModuleModule
@@ -16,6 +16,7 @@ const routes: Routes = [
         (m) => m.CmsModuleModule
       ),
   },
+  { path: 'website-builder', loadChildren: () => import('./modules/website-builder-module/website-builder-module.module').then(m => m.WebsiteBuilderModuleModule) },
 ];
 
 @NgModule({

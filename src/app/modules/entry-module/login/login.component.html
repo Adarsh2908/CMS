@@ -1,0 +1,22 @@
+<app-entry-header></app-entry-header>
+
+<div class="login-container">
+    <div class="container" id="log-container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="login-image" src="https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+            <div class="col-md-5 bg-dark text-center text-white p-5">
+                <h3 class="mb-6 text-info">L O G I N</h3>
+                <div class="login-input-box">
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                    <input placeholder="Email / Username" type="text" formControlName="email" /><br/>
+                    <input placeholder="Password" type="password" formControlName="password" /><br/>
+                    <button class="login-btn" [disabled]="!this.loginForm.valid" ><i class="fa-solid fa-arrow-right-to-bracket px-1"></i>&nbsp; L O G I N</button>
+                </form>
+            </div>
+            <p class="mt-5">Don't have an Account ? <br/>
+            <button class="text-white bg-success mt-3 px-2" id="regButton" [routerLink]="['/register']">Register Here</button></p>
+            </div>
+        </div>
+    </div>
+</div>

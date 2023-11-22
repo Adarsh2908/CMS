@@ -38,7 +38,6 @@ const routes: Routes = [
       }
     ] 
   },
-  { path: 'websiteBuilder', loadChildren: () => import('./website-builder/website-builder.module').then(m => m.WebsiteBuilderModule) }
 ];
 
 @NgModule({
